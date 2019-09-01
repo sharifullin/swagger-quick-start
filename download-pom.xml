@@ -69,7 +69,7 @@
                         </goals>
                         <configuration>
                             <inputSpec>${project.basedir}/src/main/resources/api.json</inputSpec>
-                            <language>java</language>
+                            <language>spring</language>
                             <modelPackage>model</modelPackage>
                             <apiPackage>api</apiPackage>
                             <output>${project.basedir}/swagger</output>
