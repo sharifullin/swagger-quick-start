@@ -25,10 +25,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
-            <!--
-            https://github.com/swagger-api/swaggerhub-maven-plugin/
-            -->
             <plugin>
                 <groupId>io.swagger</groupId>
                 <artifactId>swaggerhub-maven-plugin</artifactId>
