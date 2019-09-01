@@ -45,7 +45,13 @@
                             <version>1.0.0</version>
                             <format>json</format>
                             <outputFile>${project.basedir}/src/main/resources/api.json</outputFile>
+                            <!--
+                            In case when you are using a private repository you must provide a token
+                            to access the repository
+                            -->
+                            <!--
                             <token>REAL-TOKEN-FROM-SWAGGER-HUB</token>
+                            -->
                         </configuration>
                     </execution>
                 </executions>
