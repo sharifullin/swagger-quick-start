@@ -8,19 +8,17 @@ completed you can generate spring or other project.
 
 ## Overview  
 1. I prefer to do a design first. When design is ready we can generate code and documentation.
-    To generate code just start script 01-init-project.sh. This script call maven and pass `01-init-project-pom.xml`
-    file to it. Actual configuration of project location, language etc. are placed into that maven
-    pom file. If you want change it (and actually you have to that one is just an example) you can
-    refer to swagger documentation at https://github.com/swagger-api/swaggerhub-maven-plugin/ 
+    To generate code just start script `01-init-project.sh`. This script will call maven and pass `01-init-project-pom.xml`
+    file to it. Actual configuration of a project location, language etc. are into that maven
+    pom file. If you want to change it (and actually you have to -- that one is just an example) you can
+    refer to a swagger documentation at https://github.com/swagger-api/swaggerhub-maven-plugin/ 
 
     The script will download your design from SwaggerHub and after that generate server code 
     and documentation.
     
-    To run a generated application you have to find main class (it would be in _io.swagger_ package
+    To run a generated application you have to find a main class (it would be in _io.swagger_ package
     if you haven't changed anything). Go to the following URL: http://localhost:8080/smkcloud/model2/1.0.0/swagger-ui.html
     
-    Actual properties 
-
 2. After you have changed API (added some new endpoints etc) you can update you documentation and
     generate new swagger model from you existing code. Just run `02-update-swagger.sh` script. It will update
     you documentation and generate a new model.
