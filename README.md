@@ -23,6 +23,7 @@ completed you can generate spring or other project.
     generate new swagger model from you existing code. Just run `quick-start.sh g` script. It will update
     you documentation and generate a new model.
     
-3. To upload new version (generated) of your project execute `quick-start.sh u`. This command will
-    upload generated swagger.json to your SwaggerHub.
+3. To upload a new version (generated) of your project execute `quick-start.sh u`. This command will
+    upload generated swagger.json to your SwaggerHub. To execute this command you have to add your
+    repository token to a pom file (03-upload-swagger-pom.xml)
     
