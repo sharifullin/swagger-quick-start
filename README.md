@@ -17,7 +17,7 @@ completed you can generate spring or other project.
     and documentation.
     
     To run a generated application you have to find a main class (it would be in _io.swagger_ package
-    if you haven't changed anything). Go to the following URL: http://localhost:8080/<project>/model2/1.0.0/swagger-ui.html
+    if you haven't changed anything). Go to the following URL: http://localhost:8080/project/model2/1.0.0/swagger-ui.html
     
 2. After you have changed API (added some new endpoints etc) you can update you documentation and
     generate new swagger model from you existing code. Just run `quick-start.sh g` script. It will update
